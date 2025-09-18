@@ -3,7 +3,7 @@ Ye bahut useful hota hai agar tum Raspberry Pi ko ek **Wi-Fi router** jaisa use 
 
 ---
 
-## ✅ Steps: Raspberry Pi as Wireless Access Point (AP mode)
+##  Steps: Raspberry Pi as Wireless Access Point (AP mode)
 
 ### 1. **Update system**
 
@@ -102,7 +102,7 @@ wpa_key_mgmt=WPA-PSK
 rsn_pairwise=CCMP
 ```
 
-👉 Replace `ssid` and `wpa_passphrase` with your Wi-Fi name & password.
+Replace `ssid` and `wpa_passphrase` with your Wi-Fi name & password.
 
 Tell system where config is:
 
