@@ -133,7 +133,7 @@ def searchFinger():
             return
 
         print(f"Finger found at position #{positionNumber}")
-        print("Attendance Marked ✅")
+        print("Attendance Marked ")
 
     except Exception as e:
         print('Search failed!')

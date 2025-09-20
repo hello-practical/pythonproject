@@ -95,7 +95,7 @@ app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
 app.add_handler(CommandHandler("start", start))
 app.run_polling()
 
-Once test code is successful, bot can be used to control GPIO. (LED or any device connected to GPIO
+Once test code is successful, bot can be used to control GPIO. (LED or any device connected to GPIO)
 
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
